@@ -9,18 +9,18 @@
 
 <body>
   <div class="input-area">
-    <input placeholder="todo-input">
-    <button>push</button>
+    <input id="add-text" placeholder="todo-input">
+    <button id="add-button">add</button>
   </div>
   <div class="imcomplete-area">
     <div>
       <p class="title">未完了</p>
-      <ul>
+      <ul id="incomplete-list">
         <div class="list-row"> 
           <li>TODO</li>
           <button>completion</button>
           <button>delete</button>
-        </div>                    
+        </div>
         <div class="list-row"> 
           <li>TODO</li>
           <button>completion</button>
@@ -31,7 +31,7 @@
   </div>
   <div class="complete-area">
     <p class="title">完了</p>
-    <ul>
+    <ul id="complete-list">
       <div class="list-row">
         <li>
           TODO
