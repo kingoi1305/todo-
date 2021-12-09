@@ -75,7 +75,12 @@ document.getElementById("incomplete-list").appendChild(div);
 //未完了リストから指定の要素を削除
 const deleteFromIncompleteList = (target) => {
   document.getElementById("incomplete-list").removeChild(target);
-}
+};
+
+//未完了リストに追加する関数
+const createInmompleteList = (text) => {
+
+};
 
 document
 .getElementById("add-button")
