@@ -29,7 +29,7 @@ button:hover {
   background-color: #0093E9;
   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
   width: 100%;
-  height: 5rem;
+  height: 20%;
   padding: 1rem;
 }
 
@@ -37,7 +37,7 @@ button:hover {
   background-color: #D9AFD9;
   background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
   width: 100%;
-  height: 7rem;
+  height: 40%;
   min-height: 15rem;
 }
 
@@ -45,7 +45,7 @@ button:hover {
   background-color: #8BC6EC;
   background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
   width: 100%;
-  height: 7rem;
+  height: 40%;
   min-height: 15rem; 
 }
 

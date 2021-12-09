@@ -26,7 +26,7 @@ const createInmompleteList = (text) => {
 
   //complete
   const completeButton = document.createElement("button");
-  completeButton.innerText = "completion"
+  completeButton.innerText = "complete"
   completeButton.addEventListener("click", () => {
     //押された完了ボタンの親タグを未完了リストから削除
     deleteFromIncompleteList(completeButton.parentNode);
